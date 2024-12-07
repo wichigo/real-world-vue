@@ -8,14 +8,14 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="wrapper">
         <nav>
           <RouterLink :to="{ name: 'event-list' }">Events</RouterLink> |
-          <RouterLink :to="{ name: 'about' }">About</RouterLink>
+          <RouterLink :to="{ name: 'about' }">Aboutazzr</RouterLink>
         </nav>
       </div>
     </header>
     <RouterView />
   </div>
 </template>
-
+<!-- hello my bitches -->
 <style>
 #layout {
   font-family: Avenir, Arial, Helvetica, sans-serif;
